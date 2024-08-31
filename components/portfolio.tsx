@@ -157,7 +157,7 @@ export default function Portfolio() {
               className="rounded-full w-64 h-64 object-cover"
             />
             <p className="text-lg text-muted-foreground">
-              I'm a passionate full-stack developer with expertise in modern web technologies and cloud platforms.
+              I{"'"}m a passionate full-stack developer with expertise in modern web technologies and cloud platforms.
               With a strong foundation in computer science and a keen interest in DevOps, I strive to create
               efficient, scalable, and user-friendly applications. My journey in tech has been driven by curiosity
               and a desire to solve complex problems through innovative solutions.
