@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, LinkedinIcon, MailIcon } from 'lucide-react'
+import { Github, LinkedinIcon, MailIcon, X } from 'lucide-react'
 const Footer = ()=>{
     return(
         <footer className="bg-muted py-8">
@@ -14,6 +14,11 @@ const Footer = ()=>{
             <Link href="https://linkedin.com/in/upajay" legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                     <LinkedinIcon className="w-6 h-6" />
+                </a>
+            </Link>
+            <Link href="https://x.com/57ajy" legacyBehavior>
+                <a target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <X className="w-6 h-6" />
                 </a>
             </Link>
             <Link href="mailto:57ajay.u@gmail.com" aria-label="Email">

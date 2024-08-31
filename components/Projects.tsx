@@ -22,9 +22,14 @@ const Projects = () => {
                         </CardHeader>
                         <CardContent>
                             <p><span className="font-bold">Technologies Used:</span>{project.techUsed}</p>
-                            <Button className="mt-4" variant="outline" asChild>
-                                <a href={`${project.link}`} target="_blank" rel="noopener noreferrer">View Project</a>
-                            </Button>
+                            <div className="flex justify-between">
+                                <Button className="mt-4" variant="outline" asChild>
+                                    <a href={`${project.liveLink}`} target="_blank" rel="noopener noreferrer">Live Project</a>
+                                </Button>
+                                <Button className="mt-4" variant="outline" asChild>
+                                    <a href={`${project.gitLink}`} target="_blank" rel="noopener noreferrer">GitHub link</a>
+                                </Button>
+                            </div>
                         </CardContent>
                     </Card>
                 ))
