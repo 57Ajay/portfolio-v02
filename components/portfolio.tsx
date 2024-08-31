@@ -10,7 +10,8 @@ import { Textarea } from "@/components/ui/textarea"
 import { Github, LinkedinIcon, MailIcon, MenuIcon, XIcon, MoonIcon, SunIcon } from 'lucide-react'
 import Link from "next/link";
 import Image from 'next/image'
-
+import Projects from "@/components/Projects";
+import Footer from './Footer' 
 export default function Portfolio() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { theme, setTheme } = useTheme()
@@ -201,27 +202,7 @@ export default function Portfolio() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl font-bold mb-8">Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[1, 2, 3, 4].map((project) => (
-              <Card key={project} className="overflow-hidden">
-                <img
-                  src={`/placeholder.svg?height=200&width=400&text=Project+${project}`}
-                  alt={`Project ${project}`}
-                  className="w-full h-48 object-cover"
-                />
-                <CardHeader>
-                  <CardTitle>Project {project}</CardTitle>
-                  <CardDescription>A brief description of the project</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p>Technologies used: React, Node.js, MongoDB</p>
-                  <Button className="mt-4" variant="outline" asChild>
-                    <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+          <Projects />
         </motion.section>
 
         <motion.section
@@ -260,27 +241,7 @@ export default function Portfolio() {
           </Card>
         </motion.section>
       </main>
-
-      <footer className="bg-muted py-8">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-          <p className="mb-4 md:mb-0">&copy; 2024 Ajay Upadhyay. All rights reserved.</p>
-          <div className="flex space-x-4">
-            <Link href="https://github.com/57ajay" legacyBehavior>
-                <a target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <Github className="w-6 h-6" />
-                </a>
-            </Link>
-            <Link href="https://linkedin.com/in/upajay" legacyBehavior>
-                <a target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <LinkedinIcon className="w-6 h-6" />
-                </a>
-            </Link>
-            <Link href="mailto:57ajay.u@gmail.com" aria-label="Email">
-              <MailIcon className="w-6 h-6" />
-            </Link>
-          </div>
-        </div>
-      </footer>
+          <Footer />
     </div>
   )
 }
