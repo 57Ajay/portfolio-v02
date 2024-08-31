@@ -4,11 +4,10 @@ import { useState, useEffect, FormEvent } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTheme } from 'next-themes'
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Github, LinkedinIcon, MailIcon, MenuIcon, XIcon, MoonIcon, SunIcon } from 'lucide-react'
-import Link from "next/link";
+import { MenuIcon, XIcon, MoonIcon, SunIcon } from 'lucide-react'
 import Image from 'next/image'
 import Projects from "@/components/Projects";
 import Footer from './Footer' 
