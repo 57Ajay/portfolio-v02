@@ -51,9 +51,9 @@ export default function Portfolio() {
   };
 
   const skills = {
-    'Programming Languages': ['C/C++', 'Python', 'TypeScript', 'JavaScript'],
-    'Web Technologies': ['React', 'Next.js', 'Express', 'Node.js'],
-    'Cloud & DevOps': ['AWS', 'GCP', 'DevOps'],
+    'Programming Languages': ['C/C++', 'Python', 'TypeScript', 'JavaScript', 'Rust'],
+    'Web Technologies': ['React', 'Next.js', 'Express', 'Node.js', 'Honojs'],
+    'Cloud & DevOps': ['AWS', 'GCP', 'Cloudflare', 'DevOps'],
     'Databases': ['MongoDB', 'Prisma', 'PostgreSQL']
   }
 

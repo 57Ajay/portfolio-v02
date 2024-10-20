@@ -8,6 +8,15 @@ export const projectDetails = [
         liveLink: "https://homefindr-backend.onrender.com",
     },
     {
+        title: "StoryArc",
+        description: "StoryArc is a Blogging Application where you can create your own story and share it with others",
+        imgUrl : "/images/StoryArc.jpg",
+        techUsed: " React, postgrSQL, Typescript, Redux, Honojs, nodejs, Tailwind CSS, Framer Motion.",
+        gitLink: "https://github.com/57Ajay/writeit",
+        liveLink: "https://storyarc.underroot-1.online"
+
+    },
+    {
         title: "CashUp",
         description: "Cash is a payment Application where users can create ttheir account and link their bank accounts and transfer payments with others via their username or email.",
         imgUrl : "/images/CashUp.jpg",
