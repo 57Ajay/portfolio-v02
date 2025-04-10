@@ -73,7 +73,7 @@ export default function About() {
               I'm a passionate Software and DevOps Engineer with expertise in building robust applications and
               streamlining development workflows. I specialize in creating efficient, scalable solutions and
               implementing CI/CD pipelines to enhance development processes. My skills include TypeScript, JavaScript,
-              Python, Golang, C/C++, and various DevOps technologies.
+              Python, Golang, C/C++, rust and various DevOps technologies.
             </p>
 
             <h4 className="text-xl font-semibold mb-4">My Skills</h4>
