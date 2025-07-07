@@ -48,6 +48,21 @@ export default function Experience() {
                   </ul>
                 </div>
               </CardContent>
+              <CardContent>
+                <div className="border-l-2 border-primary/50 pl-4 py-4">
+                  <div className="flex items-center text-sm text-muted-foreground mb-2">
+                    <Calendar className="h-4 w-4 mr-2" />
+                    June 2024 - Ongoing
+                  </div>
+                  <h3 className="text-xl font-semibold">Backend Engineer Intern</h3>
+                  <p className="text-muted-foreground mb-4">CabsWale Pvt. Ltd, Onsite</p>
+                  <ul className="space-y-2 list-disc list-inside text-sm md:text-base">
+                    <li>Worked Extensively on Firebase Services</li>
+                    <li>Integrated Many third party services like Interakt, Mixpanel, typesense and newrelic</li>
+                    <li>Worked on optemizing backend performance and scalability,and improved it's latency by 30%-45%</li>
+                  </ul>
+                </div>
+              </CardContent>
             </Card>
           </motion.div>
 
