@@ -42,10 +42,13 @@ export default function Hero() {
           <Button asChild variant="outline" size="lg">
             <Link href="#contact">Contact Me</Link>
           </Button>
-          <Link href="/resume.pdf" legacyBehavior passHref>
-            <a href="/resume.pdf" download="ajayupadhyayresume.pdf" target="_self" rel="noopener noreferrer">
-              <Button>Resume</Button>
-            </a>
+          <Link 
+            href="/resume.pdf" 
+            download="ajayupadhyayresume.pdf" 
+            target="_self" 
+            rel="noopener noreferrer"
+          >
+            <Button size="lg">Resume</Button>
           </Link>
         </motion.div>
       </motion.div>

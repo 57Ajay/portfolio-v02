@@ -124,19 +124,27 @@ export default function Projects() {
                   </CardContent>
                   <CardFooter className="flex justify-end p-6 pt-0">
                     <div className="flex gap-2">
-                      <Button variant="outline" size="icon" asChild>
-                        <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Link
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button variant="outline" size="icon">
                           <Github className="h-4 w-4" />
                           <span className="sr-only">GitHub</span>
-                        </Link>
-                      </Button>
+                        </Button>
+                      </Link>
                       {project.liveLink && (
-                        <Button variant="outline" size="icon" asChild>
-                          <Link href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                        <Link
+                          href={project.liveLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Button variant="outline" size="icon">
                             <ExternalLink className="h-4 w-4" />
                             <span className="sr-only">Live Link</span>
-                          </Link>
-                        </Button>
+                          </Button>
+                        </Link>
                       )}
                     </div>
                   </CardFooter>
@@ -147,5 +155,5 @@ export default function Projects() {
         </AnimatePresence>
       </div>
     </section>
-  )
+  );
 }
